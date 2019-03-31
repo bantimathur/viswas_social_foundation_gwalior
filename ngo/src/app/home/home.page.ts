@@ -4,7 +4,16 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
+
 })
 export class HomePage {
+public item: any={};
+ngOnIt(){
+  this.item={
+    title:'Viswas Social Foundation Gwalior',
 
+  
+  }
+
+}
 }
